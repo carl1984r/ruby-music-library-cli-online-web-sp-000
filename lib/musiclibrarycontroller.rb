@@ -20,7 +20,8 @@ class MusicLibraryController
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
-    var = gets.strip until var == "exit"
+    input = ""
+    var = gets.strip
   end
 
   def list_songs
