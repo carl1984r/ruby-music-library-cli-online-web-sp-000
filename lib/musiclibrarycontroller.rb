@@ -21,9 +21,9 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     var = ""
-    while var != "exit"      
+    while var != "exit"
     var = gets.strip
-    
+
   end
 
   def list_songs
